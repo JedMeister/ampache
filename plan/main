@@ -1,0 +1,31 @@
+#include <turnkey/base>
+#include <turnkey/lamp>
+
+python3-bcrypt
+
+php-curl
+//php-json # virtual package provided by Apache mod_php
+php-mbstring
+php-gd
+php-ldap
+php-zip
+php-bcmath
+php-xml
+php-intl
+composer
+
+ffmpeg
+flac
+gosu
+inotify-tools
+lame
+libavcodec-extra
+libev-libevent-dev
+libflac-dev
+libmp3lame-dev
+libtheora-dev
+libvorbis-dev
+libvpx-dev
+vorbis-tools
+zip
+unzip
