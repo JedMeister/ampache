@@ -1,0 +1,74 @@
+[1;37mCommand install, version install[0m
+
+[2;37mInstall the database[0m
+
+[1;37mUsage: [0m[0;33minstall [OPTIONS...] [ARGUMENTS...][0m
+
+[1;32mArguments:[0m
+[1;37m  (n/a)[0m
+
+[1;32mOptions:[0m
+[1;37m  [-p|--ampachedbpassword]    [0m[2;37mAmpache Database Password[0m
+[1;37m  [-u|--ampachedbuser]        [0m[2;37mAmpache Database Username[0m
+[1;37m  [-H|--dbhost]               [0m[2;37mMySQL Hostname[0m
+[1;37m  [-d|--dbname]               [0m[2;37mDesired Database Name[0m
+[1;37m  [-P|--dbpassword]           [0m[2;37mMySQL Administrative Password[0m
+[1;37m  [-o|--dbport]               [0m[2;37mMySQL Port[0m
+[1;37m  [-U|--dbuser]               [0m[2;37mMySQL Administrative Username[0m
+[1;37m  [-f|--force]                [0m[2;37mOverwrite if Config Already Exists [default: false][0m
+[1;37m  [-h|--help]                 [0m[2;37mHelp[0m
+[1;37m  [-w|--webpath]              [0m[2;37mWeb Path[0m
+
+[0;33mLegend: <required> [optional] variadic...[0m
+
+[1;32mUsage Examples:[0m
+[1;37m  install[0m [2;37m  # Displays database update information[0m
+
+
+[0;37m    _                               _          
+   / \   _ __ ___  _ __   __ _  ___| |__   ___ 
+  / _ \ | '_ ` _ \| '_ \ / _` |/ __| '_ \ / _ \
+ / ___ \| | | | | | |_) | (_| | (__| | | |  __/
+/_/   \_\_| |_| |_| .__/ \__,_|\___|_| |_|\___|
+                  |_|    [0m
+[1;37mAmpache CLI, version 7.3.1[0m
+
+[1;32mCommands:[0m
+[1;33madmin[0m
+[1;37m  admin:addUser                        [0m[2;37mAdd a User[0m
+[1;37m  admin:listUsers                      [0m[2;37mUsers List[0m
+[1;37m  admin:resetPreferences               [0m[2;37mReset preference values for users[0m
+[1;37m  admin:updateConfigFile               [0m[2;37mUpdate the Ampache config file[0m
+[1;37m  admin:updateDatabase                 [0m[2;37mUpdate the database to the latest version[0m
+[1;37m  admin:updatePlugins                  [0m[2;37mUpdate Plugins automatically[0m
+[1;37m  admin:updatePreferenceAccessLevel    [0m[2;37mUpdate Preference Access Level[0m
+[1;33mcleanup[0m
+[1;37m  cleanup:art                          [0m[2;37mRemove art which does not fit to the settings[0m
+[1;37m  cleanup:songs                        [0m[2;37mDelete disabled songs[0m
+[1;37m  cleanup:sortSongs                    [0m[2;37mSort songs files[0m
+[1;33mexport[0m
+[1;37m  export:albumArt                      [0m[2;37mExport album art[0m
+[1;37m  export:databaseArt                   [0m[2;37mExport all database art to local_metadata_dir[0m
+[1;37m  export:playlist                      [0m[2;37mExport Playlists[0m
+[1;33mprint[0m
+[1;37m  print:tags                           [0m[2;37mPrint file tags[0m
+[1;33mrun[0m
+[1;37m  run:addCatalog                       [0m[2;37mCreate a local media catalog[0m
+[1;37m  run:broadcast                        [0m[2;37mRun a UPnP broadcast[0m
+[1;37m  run:cacheProcess                     [0m[2;37mRun the cache process[0m
+[1;37m  run:calculateArtSize                 [0m[2;37mRun art size calculation[0m
+[1;37m  run:computeCache                     [0m[2;37mUpdate the object cache tables[0m
+[1;37m  run:convertFilenames                 [0m[2;37mConvert filenames using a charset[0m
+[1;37m  run:cronProcess                      [0m[2;37mRun the cron process[0m
+[1;37m  run:moveCatalogPath                  [0m[2;37mChange a Catalog path[0m
+[1;37m  run:updateCatalog                    [0m[2;37mPerform catalog actions for all files of a catalog. If no options are given, the defaults actions -ceag are assumed[0m
+[1;37m  run:updateCatalogFile                [0m[2;37mPerform catalog actions for a single file[0m
+[1;37m  run:updateCatalogFolder              [0m[2;37mPerform catalog actions for a single folder[0m
+[1;37m  run:updateDb                         [0m[2;37mUpdate the database collation and charset[0m
+[1;37m  run:websocket                        [0m[2;37mRun a Websocket[0m
+[1;33mshow[0m
+[1;37m  show:version                         [0m[2;37mVersion[0m
+
+[0;33mRun `<command> --help` for specific help[0m
+
+see issue #3779

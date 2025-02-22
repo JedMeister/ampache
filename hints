@@ -1,0 +1,10 @@
+# install
+bin/installer 
+bin/installer htaccess -e
+
+
+Or...
+
+- sql can be found 'resources/sql/ampache.sql'
+- default config file can be found 'config/ampache.cfg.php.dist'
+    - just rename (remove '.dist')
