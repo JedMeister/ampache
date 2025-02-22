@@ -1,0 +1,8 @@
+#!/bin/bash -e
+# set ampache admin password & email
+
+source /etc/default/inithooks
+
+[[ -e "$INITHOOKS_CONF" ]] && source "$INITHOOKS_CONF"
+
+"$INITHOOKS_PATH"/bin/ampache.py --pass="$APP_PASS"

@@ -1,0 +1,7 @@
+turnkey-ampache-18.1 (1) turnkey; urgency=low
+
+  * Initial release of Ampache appliance - based on LAMP.
+
+  * Ampache installed from git master as-per upstream recommendations
+
+ - Jeremy Davis <jeremy@turnkeylinux.org>  Sun, 22 Feb 2025 17:43:19 +1100
